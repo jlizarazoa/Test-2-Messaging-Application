@@ -14,7 +14,7 @@ The solution addresses the following requirements:
 - Use the Strategy and Singleton design patterns.
 - Use dependency injection.
 
-## Designing Decisions
+## Design Decisions
 
 - **Singleton Pattern**: The LoggerConfiguration class is implemented as a singleton to ensure that there is only one instance of configuration throughout the application.
 - **Strategy Pattern**: Different logging strategies (ConsoleLogger, FileLogger, DatabaseLogger) are implemented to allow easy switching and addition of new logging methods.
